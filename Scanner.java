@@ -70,28 +70,4 @@ public class Scanner {
     public List<List<Token>> getTokens() {
         return tokens;
     }
-
-    // Inner class to define a Token
-    public static class Token {
-        private final String tokenType;
-        private final String value;
-
-        public Token(String tokenType, String value) {
-            this.tokenType = tokenType;
-            this.value = value;
-        }
-
-        public String getTokenType() {
-            return tokenType;
-        }
-
-        public String getValue() {
-            return value;
-        }
-
-        @Override
-        public String toString() {
-            return "Token{" + "tokenType='" + tokenType + '\'' + ", value='" + value + '\'' + '}';
-        }
-    }
 }
