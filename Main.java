@@ -6,6 +6,6 @@ public class Main {
         List <List<Token>> tokens = new Scanner().getTokens();
 
         // Initialize Parser
-        Parser parser = new Parser();
+        Parser parser = new Parser(tokens);
     }
 }
